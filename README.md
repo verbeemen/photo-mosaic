@@ -47,6 +47,7 @@ The workflow is split into two parts: building your tile library and generating 
 ### 1. Create the Dataset
 
 Run `create_dataset.py` to download and preprocess images for your tile library. By default, it fetches 64x64 pixel images.
+I've downloaded a dataset of 3000 images. You can increase this number for better results. But I had the feeling that I had most of the unique faces after 3000 images. (I kept receiving duplication messages after that.)
 
 ```bash
 uv run create_dataset.py
